@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Me!" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next Page" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:textSize="25sp"
+        android:background="@color/colorAccent"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="45dp"
+        android:text="Touch Me" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
+        app:srcCompat="@drawable/kenyalogo" />
+
+</LinearLayout>

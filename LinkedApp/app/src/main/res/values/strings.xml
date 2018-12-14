@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LinkedApp</string>
+    <string-array name="majina">
+        <item>Letina</item>
+        <item>Letina</item>
+        <item>Letina</item>
+        <item>Letina</item>
+        <item>Letina</item>
+        <item>Letina</item>
+        <item>Letina</item>
+        <item>Letina</item>
+        <item>Letina</item>
+        <item>Letina</item>
+        <item>Letina</item>
+        <item>Letina</item>
+    </string-array>
+</resources>
